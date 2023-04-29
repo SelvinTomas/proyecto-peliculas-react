@@ -1,0 +1,40 @@
+@import "../../consts/variables.scss";
+
+.welcome-container{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .welcome-test{
+        font-size: 4em;
+        color: $blanco;
+        text-align: justify;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        padding: 0 10vw;
+
+    
+      }
+      .welcome-button{
+        width: 20%;
+        height: 5%;
+        background-color: $secundario;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba($negro, 0.3);
+        font-size: 1.5em;
+        font-weight: bold;
+        a{
+            color: $blanco;
+            text-decoration: none;
+            cursor: pointer;
+        }
+      }
+}

@@ -4,10 +4,11 @@ import {Link} from 'react-router-dom';
 
 const Header = () =>{
     return(
+
         <>
             <header className="header-container">
                 <ul>
-                    <li><Link>Inicio</Link></li>
+                    <li><Link to="/">Inicio</Link></li>
                     <li><Link>Películas</Link></li>
                     <li><Link>Crear pelicula</Link></li>    
                 </ul>
@@ -17,6 +18,7 @@ const Header = () =>{
                 </div>
             </header>
         </>
+
     )
 }
 
